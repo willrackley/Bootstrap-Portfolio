@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+
+        <title>
+            CONTACT
+        </title>
+    </head>
+
+    <body>
+        
+        <!--Navbar header and Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white mb-4 border-bottom border-secondary">
+            <div class="container">
+                <a href="#" class="navbar-brand h2 text-white p-4">WILLIAM RACKLEY</a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu"><span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item border-right border-secondary">
+                                <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary py-0">
+                                <a href="#" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item py-0">
+                                <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--form content-->
+        <div class="container bg-white mb-5">
+            <div class="row ">
+                <div class="col-12">
+                    <div class="page-header pt-3 pb-2 mb-3">
+                        <h2>Contact</h2>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="userName">Name</label>
+                    <input type="text" class="form-control" id="userName" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="userEmail">Email</label>
+                    <input type="text" class="form-control" id="userEmail" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="userMessage">Message</label>
+                    <textarea class="form-control" rows="5" id="userMessage"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-3" id="formSubmitButton">Submit</button>
+            </form>
+        </div>
+
+        <!--Sticky Footer-->
+        <div class="container-fluid fixed-bottom pt-3 mt-5" id="footer">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-light text-center"><small>copyright &copy;</small></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--jquery for the hamburger menu to display the collapsed links-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,6 +1,6 @@
 
-.container-fluid {
-    border-bottom: 2px solid #cccccc; 
+nav {
+   
 }
 
 body {
@@ -15,8 +15,7 @@ body {
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    padding: 10px 20px;
-    font-weight: bold;
+    
 }
 
 .page-header {
@@ -26,14 +25,15 @@ body {
     border-bottom: 2px solid #cccccc;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+#footer {
     border-top: 8px solid #4aaaa5;
     background: #666666;
-    color: white;
-    text-align: center;
+}
+
+#formSubmitButton {
+    background: #4aaaa5;
+}
+
+.card-title {
+    background: #4aaaa5;
 }
