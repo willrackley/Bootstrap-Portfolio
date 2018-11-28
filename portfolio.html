@@ -26,13 +26,13 @@
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item border-right border-secondary">
-                                <a href="#" class="nav-link">About</a>
+                            <a href="#" class="nav-link">About</a>
                         </li>
                         <li class="nav-item border-right border-secondary py-0">
-                                <a href="#" class="nav-link">Portfolio</a>
+                            <a href="#" class="nav-link">Portfolio</a>
                         </li>
                         <li class="nav-item py-0">
-                                <a href="#" class="nav-link">Contact</a>
+                            <a href="#" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -40,7 +40,6 @@
         </nav>
 
         <!--Portfolio Content-->
-        <!--Don't know how to get the text in the nested column to fit flush with the image in the xl breakpoint-->
         <div class="container bg-white border border-secondary mb-5">
             <div class="row">
                     <div class="col-12">
@@ -51,70 +50,69 @@
                 </div>
 
             <div class="row">
-                <div class=" col-sm-6 mb-3">
-                    <img  src="building.jpeg" class="img-fluid" alt="picture of fruits">
-                        <div class="row">
-                            <div class="col-xl-9 col-lg-11 pr-lg-4 pr-xl-3">
-                                <p class="bg-info text-center text-white p-3">Food</p>
-                            </div>
+                <div class=" col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="building.jpeg" alt="picture of food">
+                        <div class="card-body p-2 textOverlay">
+                          <p class="card-text text-center text-white">Food</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="croquet.jpeg" alt="picture of a coil">
+                        <div class="card-body p-2 textOverlay">
+                          <p class="card-text text-center text-white">Technology</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="eyes.jpeg" alt="picture of a building">
+                        <div class="card-body p-2 textOverlay">
+                            <p class="card-text text-center text-white">Greek Architecture</p>
+                        </div>
                         </div>
                 </div>
-                <div class="col-sm-6 mb-3">
-                    <img  src="croquet.jpeg" class="img-fluid" alt="picture of a coil">
-                        <div class="row">
-                            <div class="col-xl-9 col-lg-11 pr-lg-4 pr-xl-3">
-                                <p class="bg-info text-center text-white p-3">Technology</p>
-                            </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="tree.jpeg" alt="picture of a bridge">
+                        <div class="card-body p-2 textOverlay">
+                            <p class="card-text text-center text-white">Golden Gate Bridge</p>
+                        </div>
                         </div>
                 </div>
             </div>
 
-                <div class="row">
-                    <div class="col-sm-6 mb-3">
-                        <img  src="eyes.jpeg" class="img-fluid" alt="picture of building">
-                            <div class="row">
-                                <div class="col-xl-9 col-lg-11 pr-lg-4 pr-xl-3">
-                                    <p class="bg-info text-center text-white p-3">Greek Architecture</p>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-sm-6 mb-3">
-                        <img  src="tree.jpeg" class="img-fluid" alt="picture of bridge">
-                            <div class="row">
-                                <div class="col-xl-9 col-lg-11 pr-lg-4 pr-xl-3">
-                                    <p class="bg-info text-center text-white p-3">Golden Gate Bridge</p>
-                                </div>
-                            </div>
-                    </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="window.jpeg" alt="picture of a tiger">
+                        <div class="card-body p-2 textOverlay">
+                            <p class="card-text text-center text-white">Asian Animals</p>
+                        </div>
+                        </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-sm-6 mb-4">
-                        <img  src="window.jpeg" class="img-fluid" alt="picture of tiger">
-                            <div class="row">
-                                <div class="col-xl-9 col-lg-11 pr-lg-4 pr-xl-3">
-                                    <p class="bg-info text-center text-white p-3">Asian Animals</p>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-sm-6 mb-4">
-            
-                    </div>
-            </div>
-    
- <!--Sticky Footer-->
- <div class="container-fluid fixed-bottom pt-3 mt-5" id="footer">
-        <div class="row">
-            <div class="col-12">
-                <p class="text-light text-center"><small>copyright &copy;</small></p>
             </div>
         </div>
-    </div>
+        <br><br>
 
+        <!--Sticky Footer--> 
+        <div class="container-fluid fixed-bottom pt-3 mt-5" id="footer">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-light text-center"><small>copyright &copy;</small></p>
+                    </div>
+                </div>
+            </div>
 
-    <!--jquery for the hamburger menu to display the collapsed links-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+        <!--jquery for the hamburger menu to display the collapsed links-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    </body>
 </html>

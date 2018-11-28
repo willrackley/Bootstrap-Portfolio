@@ -1,8 +1,3 @@
-
-nav {
-   
-}
-
 body {
     background-image: url(qbkls.png);
 }
@@ -16,6 +11,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     
+}
+.textOverlay {
+    background: #4aaaa5;
 }
 
 .page-header {
